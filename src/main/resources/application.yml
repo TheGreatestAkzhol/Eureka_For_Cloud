@@ -1,11 +1,8 @@
 spring:
   application:
     name: eureka-server
-server:
-  port: 8085
 eureka:
   instance:
-    hostname: localhost
     lease-expiration-duration-in-seconds: 70
     metadata-map:
       zone: zone_A
